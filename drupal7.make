@@ -84,6 +84,7 @@ projects[date]
 projects[devel]
 projects[coder]
 projects[less]
+projects[less]
 
 
 ;cck
