@@ -2,106 +2,105 @@
 core = 7.x
 
 api = 2
-projects[drupal]
+projects[] = drupal
 
 ; Profiles
 
 
 ; Modules
-projects[ctools]
-projects[libraries]
-projects[pathauto]
-projects[token]
-projects[transliteration]
-projects[variable]
-projects[nodereference_url]
-projects[rules]
-projects[backup_migrate]
-projects[content_access]
+projects[] = ctools
+projects[] = libraries
+projects[] = pathauto
+projects[] = token
+projects[] = variable
+projects[] = nodereference_url
+projects[] = rules
+projects[] = backup_migrate
+projects[] = content_access
 
 ;jQuery
-projects[jquery_update]
+projects[] = jquery_update
 
 ;Feeds
-projects[feeds]
+projects[] = feeds
 
 ;Site export Modules
-projects[features]
-projects[strongarm]
+projects[] = features
+projects[] = strongarm
 
 ;Theme manipulation
-projects[sweaver]
+projects[] = sweaver
 
 ;SEO related Modules
-projects[globalredirect]
-projects[page_title]
-projects[xmlsitemap]
+projects[] =globalredirect
+projects[] = page_title
+projects[] = xmlsitemap
+projects[] = google_analytics
 
-projects[panels]
-projects[ds]
 
-projects[google_analytics]
+projects[] = panels
+projects[] ds
+
 
 ;Views and related Modules
-projects[views]
-projects[eva]
-projects[views_bulk_operations]
-projects[views_slideshow]
+projects[] = views
+projects[] = eva
+projects[] = views_bulk_operations
+projects[] = views_slideshow
 
 
 ;form related Modules
-projects[webform]
-projects[mollom]
+projects[] = webform
+projects[] = mollom
 
 
 ;map related Modules
-;projects[location]
-;projects[gmap]
+;projects[] = location
+;projects[] = gmap
 
 ;Text management
-projects[wysiwyg]
+projects[] = wysiwyg
 
 ;Image management
-projects[media]
-projects[filefield_sources]
-projects[image_resize_filter]
-projects[insert]
-projects[imce]
-projects[imce_wysiwyg]
-projects[lightbox2]
-projects[colorbox]
-projects[colorbox_node]
+projects[] = media
+projects[] = filefield_sources
+projects[] = image_resize_filter
+projects[] = insert
+projects[] = imce
+projects[] = imce_wysiwyg
+projects[] = lightbox2
+projects[] = colorbox
+projects[] = colorbox_node
 
 ;Media management
-projects[emfield]
-projects[media_vimeo]
-projects[media_youtube]
+;projects[] = emfield
+;projects[] = media_vimeo
+;projects[] = media_youtube
 
 ;Date Modules
-projects[date]
+projects[] = date
 
 ;Development
-projects[devel]
-projects[coder]
-projects[less]
-projects[less]
-
+projects[] = devel
+projects[] = coder
+projects[] = less
+ 
 
 ;cck
-projects[link]
-project[email]
+projects[] = link
+project[] = email
 
 ;Internationalization
-projects[i18n]
-projects[transliteration]
+projects[] = i18n
+projects[] = transliteration
 
 
 ;Other Modules
-projects[fontyourface]
-projects[quicktabs]
-projects[nodequeue]
-projects[mailchimp]
-projects[profile2]
+projects[] = fontyourface
+projects[] = quicktabs
+projects[] = nodequeue
+projects[] = mailchimp
+projects[] = profile2
 
 
 ; Libraries
